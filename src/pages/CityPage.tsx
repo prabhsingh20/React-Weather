@@ -4,8 +4,8 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertTriangle } from "lucide-react";
 import { CurrentWeather } from "../components/CurrentWheather";
 import { HourlyTemperature } from "../components/HourlyTemprature";
-import { WeatherDetails } from "../components/weather-details";
-import { WeatherForecast } from "../components/weather-forecast";
+import { WeatherDetails } from "../components/WeatherDetails";
+import { WeatherForecast } from "../components/WeatherForecast";
 import WeatherSkeleton from "../components/loading-skeleton";
 import { FavoriteButton } from "@/components/favorite-button";
 
