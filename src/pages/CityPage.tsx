@@ -1,5 +1,5 @@
 import { useParams, useSearchParams } from "react-router-dom";
-import { useWeatherQuery, useForecastQuery } from "@/hooks/use-weather";
+import { useWeatherQuery, useForecastQuery } from "@/hooks/useWeather";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertTriangle } from "lucide-react";
 import { CurrentWeather } from "../components/CurrentWheather";
