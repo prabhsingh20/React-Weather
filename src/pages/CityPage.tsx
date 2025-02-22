@@ -9,7 +9,7 @@ import { WeatherForecast } from "../components/WeatherForecast";
 import WeatherSkeleton from "../components/LoadingSkeleton";
 import { FavoriteButton } from "@/components/FavoriteButton";
 
-export function CityPage() {
+export default function CityPage() {
   const [searchParams] = useSearchParams();
   const params = useParams();
   const lat = parseFloat(searchParams.get("lat") || "0");
