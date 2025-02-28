@@ -2,17 +2,17 @@ import {
   useForecastQuery,
   useReverseGeocodeQuery,
   useWeatherQuery,
-} from "@/hooks/use-weather";
+} from "@/hooks/useWeather";
 import { CurrentWeather } from "../components/CurrentWheather";
 import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert";
 import { Button } from "../components/ui/button";
 import { MapPin, AlertTriangle, RefreshCw } from "lucide-react";
-import { useGeolocation } from "@/hooks/use-geolocation";
-import { WeatherDetails } from "../components/weather-details";
-import { WeatherForecast } from "../components/weather-forecast";
-import { HourlyTemperature } from "../components/hourly-temprature";
-import WeatherSkeleton from "../components/loading-skeleton";
-import { FavoriteCities } from "@/components/favorite-cities";
+import { useGeolocation } from "@/hooks/useGeoloaction";
+import { WeatherDetails } from "../components/WeatherDetails";
+import { WeatherForecast } from "../components/WeatherForecast";
+import { HourlyTemperature } from "../components/HourlyTemprature";
+import WeatherSkeleton from "../components/LoadingSkeleton";
+import { FavoriteCities } from "@/components/FavoriteCity";
 
 export function WeatherDashboard() {
   const {
