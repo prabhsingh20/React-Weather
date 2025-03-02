@@ -14,7 +14,7 @@ import { HourlyTemperature } from "../components/HourlyTemprature";
 import WeatherSkeleton from "../components/LoadingSkeleton";
 import { FavoriteCities } from "@/components/FavoriteCity";
 
-export function WeatherDashboard() {
+export default function WeatherDashboard() {
   const {
     coordinates,
     error: locationError,
