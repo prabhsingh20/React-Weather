@@ -1,4 +1,3 @@
-// src/components/weather/favorite-cities.tsx
 import { useNavigate } from "react-router-dom";
 import { useWeatherQuery } from "@/hooks/useWeather";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
