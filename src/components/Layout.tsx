@@ -10,7 +10,7 @@ export function Layout({ children }: PropsWithChildren) {
         {children}
       </main>
       <footer className="border-t backdrop-blur supports-[backdrop-filter]:bg-background/60 py-6">
-        <div className="container mx-auto px-4 text-center text-gray-200 flex  justify-center">
+        <div className="container mx-auto px-4 text-center flex  justify-center">
           <p className="flex juscenter items-center gap-2">
             <SunSnow /> React Weather <Haze />
           </p>

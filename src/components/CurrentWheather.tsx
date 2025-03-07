@@ -23,13 +23,13 @@ export function CurrentWeather({ data, locationName }: CurrentWeatherProps) {
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-4">
             <div className="space-y-2">
-              <div className="flex items-center">
+              <div className="flex items-center gap-2 ">
                 <h2 className="text-2xl font-bold tracking-tight">
-                  {locationName?.name}
+                  {locationName?.name},
                 </h2>
                 {locationName?.state && (
-                  <span className="text-muted-foreground">
-                    , {locationName.state}
+                  <span className="text-muted-foreground self-end">
+                    {locationName.state}
                   </span>
                 )}
               </div>
